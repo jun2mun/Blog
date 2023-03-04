@@ -10,7 +10,7 @@ import Footer from "@/components/templates/Footer"
 export default function Home(){
   return (
     <>
-      <div style={{borderStyle:"solid"}}>
+      <div style={{borderStyle:"solid",margin:'0', padding:'0'}}>
         <Sidebar/>
         {/* section part */}
         <Section/>
